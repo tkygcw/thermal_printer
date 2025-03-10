@@ -81,7 +81,7 @@ BOOL PrintManager::printBytes(std::vector<uint8_t> data)
     }
 
     // Fill in default value of the print document
-    docInfo.pDocName = L"FeedMe POS Print Job";
+    docInfo.pDocName = L"Optimy POS Print Job";
     docInfo.pOutputFile = NULL;
     docInfo.pDatatype = L"RAW";
 
